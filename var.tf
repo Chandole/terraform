@@ -1,3 +1,3 @@
 variable "tags" {
-typtype =   
+typtype = map(string)  
 }
