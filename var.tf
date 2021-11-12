@@ -1,4 +1,6 @@
 variable "tags" {
-typtype = map(string)
-  
+type = map(string)
+default = {
+  "key" = "value"
+}  
 }
