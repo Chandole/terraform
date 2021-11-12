@@ -1,0 +1,16 @@
+-------------------- Auto-Git Log --------------------
+		Fri Nov 12 2021 15:27:33 GMT+0530 (India Standard Time)
+------------------------------------------------------
+
+Modified files:
+* vars.tf
+
+
+Created files:
+* .autogit/logs/log-12-10-2021-15-27-17.txt
+
+
+Deleted files:
+
+
+Renamed files:
