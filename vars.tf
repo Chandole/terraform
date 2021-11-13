@@ -22,6 +22,7 @@ default = {
 }
 
 variable "device_name" {
+  type = list()
   default=["/dev/sdd"]
   tags = {
     Name ="myebs1"
