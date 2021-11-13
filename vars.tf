@@ -22,5 +22,6 @@ default = {
 }
 
 variable "aws_volume_attachment" {
+  device
   
 }
