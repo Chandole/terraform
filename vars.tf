@@ -21,6 +21,6 @@ default = {
 }  
 }
 
-variable "" {
+variable "aws_volume_attachment" {
   
 }
