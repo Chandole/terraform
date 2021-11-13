@@ -8,3 +8,7 @@ resource "aws_instance" "webserver" {
     availability_zone = var.availability_zone
     tags = var.tags
 }
+
+output "name" {
+  
+}
