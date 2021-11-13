@@ -22,6 +22,7 @@ default = {
 }
 
 variable "aws_volume_attachment" {
+  type = 
   device_name = "/dev/sdh"
   
 }
