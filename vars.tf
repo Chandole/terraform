@@ -23,6 +23,6 @@ default = {
 variable "user_data" {
   type = string
   default = <<EOT
-  
-    
+              
+  EOT  
 }
