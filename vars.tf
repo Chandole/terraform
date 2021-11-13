@@ -12,6 +12,6 @@ variable "instance_type" {
 }
 variable "availability_zone" {
   type = string
-  default = "us-"
+  default = "us-east"
   
 }
