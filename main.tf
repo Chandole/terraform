@@ -24,3 +24,6 @@ output "instance_id" {
     value = aws_instance.webserver.instance_id
   
 }
+output "valume_id" {
+  
+}
