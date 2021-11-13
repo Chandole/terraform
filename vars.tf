@@ -20,6 +20,7 @@ default = {
   Env = "Dev"
 }  
 }
-variable "user_" {
+variable "user_data" {
+  type = string
   
 }
