@@ -5,3 +5,6 @@ default = {
   Env = "Dev"
 }  
 }
+variable "instance_type" {
+  
+}
