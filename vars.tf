@@ -24,6 +24,6 @@ variable "user_data" {
   type = string
   default = <<EOT
               yum install httpd -y
-              echo "welcom Shubham "
+              echo "welcom Shubham " > /var/www 
   EOT  
 }
