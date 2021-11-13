@@ -22,6 +22,7 @@ default = {
 }
 variable "user_data" {
   type = string
-  default = <<EOF
+  default = <<EOT
+  
     
 }
