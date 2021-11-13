@@ -25,5 +25,5 @@ output "instance_id" {
   
 }
 output "volume_id" {
-  value = aws_instance.webserver.va
+  value = aws_instance.webserver.volume_id
 }
