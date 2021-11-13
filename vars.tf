@@ -1,6 +1,6 @@
 variable "ami" {
 type =  string
-de
+default = "value"
 
 }
 variable "instance_type" {
