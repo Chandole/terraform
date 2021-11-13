@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_instance" "webserver" {
-    ami = "ami-0b0af3577fe5e3532"
+    ami = var.ami
     instance_type = var.instance_type
     availability_zone = var.availability_zone
     tags = var.tags
