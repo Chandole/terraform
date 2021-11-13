@@ -10,4 +10,7 @@ variable "instance_type" {
   default = "t2.micro"
   
 }
-var
+variable "availability_zone" {
+  type = sr
+  
+}
