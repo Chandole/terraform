@@ -22,4 +22,6 @@ default = {
 }
 
 variable "device_name" {
-  default=["/dev/sdd"]}
+  default=["/dev/sdd"]
+  
+  }
