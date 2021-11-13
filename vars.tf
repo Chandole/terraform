@@ -23,6 +23,6 @@ default = {
 
 variable "aws_ebs_volume" {
   type =  string
-  device_name = "/dev/sdh"
+  device_name = {}"/dev/sdh"
   
 }
