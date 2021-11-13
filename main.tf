@@ -5,7 +5,7 @@ provider "aws" {
 resource "aws_instance" "webserver" {
     ami = "ami-0b0af3577fe5e3532"
     instance_type = "t2.micro"
-    availability_zone =
-       tags = var.tags
+    availability_zone = var.availability_zone
+    tags = var.tags
 
 }
