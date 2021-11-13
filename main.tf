@@ -21,6 +21,6 @@ output "private_ip" {
 }
 
 output "instance_id" {
-    value = aws_instance.webserver.in
+    value = aws_instance.webserver.instance_initiated_shutdown_behavior
   
 }
