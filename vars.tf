@@ -23,6 +23,6 @@ default = {
 
 variable "device_name" {
   type = list(string)
-  default=["/dev/sdd"]
+  default = ["/dev/sdd"]
   
   }
