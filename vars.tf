@@ -24,6 +24,6 @@ default = {
 variable "device_name" {
   default=["/dev/sdd"]
   tags = {
-    
+    Name ="myebs1"
   }
   }
