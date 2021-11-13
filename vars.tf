@@ -1,6 +1,6 @@
 variable "ami" {
 typtype =  string
-  
+d  
 }
 variable "instance_type" {
   type = string
