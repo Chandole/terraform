@@ -11,6 +11,7 @@ variable "instance_type" {
   
 }
 variable "availability_zone" {
-  type = sr
+  type = string
+  default = "us"
   
 }
