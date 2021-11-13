@@ -10,11 +10,11 @@ resource "aws_instance" "webserver" {
     
 }
 
-resource "aws_volume_attachment" "ebs_att" {
-  device_name = "/dev/sdd"
+#resource "aws_volume_attachment" "ebs_att" {
+#  device_name = "/dev/sdd"
  # volume_id = aws_ebs_volume.ebs_volume.id
-   force_detach = true
-} 
+ #  force_detach = true
+#} 
 
 output "private_ip" {
     value = aws_instance.webserver.private_ip  
