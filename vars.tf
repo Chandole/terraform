@@ -21,4 +21,5 @@ default = {
 }  
 }
 
-variable "device_name" {default=["/dev/sdd"]}
+variable "device_name" {
+  default=["/dev/sdd"]}
