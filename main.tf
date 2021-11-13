@@ -20,7 +20,8 @@ output "private_ip" {
     value = aws_instance.webserver.private_ip  
 }
 
+
 output "instance_id" {
-    value       = aws_instance.app_server.id
-  
+  description = "ID of the EC2 instance"
+  value       = aws_instance.app_server.id
 }
