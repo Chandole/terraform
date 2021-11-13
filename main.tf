@@ -12,7 +12,7 @@ resource "aws_instance" "webserver" {
 
 resource "aws_volume_attachment" "ebs_att" {
   device_name = "/dev/sdd"
-  volume_id = aws_ebs_volume.ebs_volume.id
+ # volume_id = aws_ebs_volume.ebs_volume.id
    force_detach = true
 } 
 
