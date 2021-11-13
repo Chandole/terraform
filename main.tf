@@ -21,7 +21,7 @@ output "private_ip" {
 }
 
 output "instance_id" {
-    value = aws_instance.webserver.instance_id
+    value       = aws_instance.app_server.id
   
 }
 output "volume_id" {
