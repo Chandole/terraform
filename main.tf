@@ -19,3 +19,7 @@ resource "aws_volume_attachment" "ebs_att" {
 output "private_ip" {
     value = aws_instance.webserver.private_ip  
 }
+
+output "name" {
+  
+}
