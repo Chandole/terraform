@@ -23,6 +23,7 @@ default = {
 variable "user_data" {
   type = string
   default = <<EOT
+              yum install httpd -y
               
   EOT  
 }
