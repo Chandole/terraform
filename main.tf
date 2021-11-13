@@ -10,4 +10,6 @@ resource "aws_instance" "webserver" {
 
 }
 
- resource ""
+resource "" "name" {
+  
+}
