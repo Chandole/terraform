@@ -9,6 +9,6 @@ resource "aws_instance" "webserver" {
     tags = var.tags
 }
 
-output "name" {
+output "private_ip" {
   
 }
