@@ -10,5 +10,5 @@ resource "aws_instance" "webserver" {
 }
 
 output "private_ip" {
-    value =   
+    value = AWS  
 }
