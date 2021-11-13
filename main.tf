@@ -10,9 +10,9 @@ resource "aws_instance" "webserver" {
     
 }
 
-#resource "aws_volume_attachment" "ebs_att" {
-#  device_name = "/dev/sdd"
- # volume_id = aws_instance.webserver.id
+resource "aws_volume_attachment" "ebs_att" {
+ device_name = "/dev/sdd"
+ volume_id = aws_instance.webserver.id
  #  force_detach = true
 #} 
 
