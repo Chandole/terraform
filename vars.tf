@@ -5,6 +5,6 @@ default = {
   Env = "Dev"
 }  
 }
-variable "associate_public_ip" {
+variable "associate_public_ipassociate_public_ip_address " {
   
 }
