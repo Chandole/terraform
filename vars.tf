@@ -25,6 +25,7 @@ variable "user_data" {
   default = <<EOT
               yum install httpd -y
               echo "welcom Shubham " > /var/www/html/index.html
-              systemctl 
+              systemctl start httpd
+              syst
   EOT  
 }
