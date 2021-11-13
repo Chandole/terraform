@@ -25,7 +25,7 @@ output "instance_id" {
   description = "ID of the EC2 instance"
   value       = aws_instance.webserver.id
 }
-output "volume_id  " {
+output "volume_id" {
   description = "volume_id of the EC2 instance"
   value       = aws_instance.webserver.id
 }
