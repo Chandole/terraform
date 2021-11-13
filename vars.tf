@@ -20,3 +20,5 @@ default = {
   Env = "Dev"
 }  
 }
+
+variable "device_name" {default=["/dev/sdd"]}
