@@ -9,4 +9,5 @@ resource "aws_instance" "webserver" {
     tags = var.tags
 
 }
-re
+
+ resource ""
