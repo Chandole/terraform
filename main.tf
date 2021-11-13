@@ -7,7 +7,7 @@ resource "aws_instance" "webserver" {
     instance_type = var.instance_type
     availability_zone = var.availability_zone
     tags = var.tags
-    aws_ebs_volume = var.aws_ebs_volume
+    
 }
 
 resource "aws_volume_attachment" "ebs_att" {

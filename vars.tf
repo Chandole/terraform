@@ -20,9 +20,3 @@ default = {
   Env = "Dev"
 }  
 }
-
-variable "aws_ebs_volume" {
-  type =  string
-  device_name = ["/dev/sdh"]
-  
-}
