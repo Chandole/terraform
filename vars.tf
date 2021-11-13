@@ -5,6 +5,6 @@ default = {
   Env = "Dev"
 }  
 }
-variable "" {
+variable "secondary_private_ips" {
   
 }
