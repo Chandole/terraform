@@ -22,6 +22,6 @@ default = {
 }
 variable "user_data" {
   type = string
-  default = "value"
-  
+  default = <<EOF
+    
 }
