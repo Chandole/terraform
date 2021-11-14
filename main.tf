@@ -10,7 +10,7 @@ resource "aws_instance" "webserver" {
     
 }
 
-#Create 
+#Create New EBS
 resource "aws_ebs_volume" "Ebs-Vol1" {
   availability_zone = var.availability_zone
   size = 10
