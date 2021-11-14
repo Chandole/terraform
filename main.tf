@@ -9,6 +9,10 @@ resource "aws_instance" "webserver" {
     tags = var.tags
     
 }
+
+resource "" "name" {
+  
+}
 /*
 resource "aws_volume_attachment" "ebs_attach" {
  device_name = "/dev/sdd"
