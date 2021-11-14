@@ -35,7 +35,7 @@ output "volume_id" {
 resource "aws_eip" "webserver_eip" {
   instance = aws_instance.webserver.id
   tags = {
-    Name = ""
+    Name = "EIP"
   }
   
 }
