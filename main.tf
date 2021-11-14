@@ -12,6 +12,7 @@ resource "aws_instance" "webserver" {
 
 resource "aws_ebs_volume" "Ebs-Vol1" {
   
+  
 }
 /*
 resource "aws_volume_attachment" "ebs_attach" {
