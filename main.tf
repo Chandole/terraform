@@ -15,6 +15,7 @@ resource "aws_volume_attachment" "ebs_attach" {
  instance_id = aws_instance.webserver.id
  volume_id = aws_instance.webserver.id
   force_detach = true
+  aws_volume_attachment.ebs_attach,
 } 
 
 output "private_ip" {
