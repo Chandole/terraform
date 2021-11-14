@@ -10,7 +10,7 @@ resource "aws_instance" "webserver" {
     
 }
 
-resource "aws_volume_attachment" {
+resource "aws_volume_attachment" "ebs" {
   type = string
  device_name = ["/dev/sdd"]
  instance_id = aws_instance.webserver.id
