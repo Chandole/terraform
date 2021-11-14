@@ -38,7 +38,7 @@ resource "aws_eip" "webserver_eip" {
 
 #IAM User
 
-resource "" "name" {
+resource "aws_" "name" {
   
 }
 
