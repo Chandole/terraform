@@ -44,7 +44,7 @@ namename = "shubham"
 #IAM Group Creat
 resource "aws_iam_group" "developers" {
   name = "developers"
-  path = "/users/"
+ 
 }
 
 output "private_ip" {
