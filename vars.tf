@@ -22,7 +22,7 @@ default = {
 }
 
 variable "aws_volume_attachment" {
-  type = list(string)
+  type = string
   default = 
   
   }
