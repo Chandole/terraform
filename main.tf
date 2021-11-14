@@ -39,7 +39,7 @@ resource "aws_eip" "webserver_eip" {
 #IAM User
 
 resource "aws_iam_user" "shubham" {
-na  
+namename = ""  
 }
 
 output "private_ip" {
