@@ -23,6 +23,6 @@ default = {
 
 variable "aws_volume_attachment" {
   type = list(string)
-  default = ["/dev/sdd"]
+  default = 
   
   }
