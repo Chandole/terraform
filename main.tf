@@ -18,7 +18,7 @@ resource "aws_ebs_volume" "Ebs-Vol1" {
   }
   
 }
-/*
+
 resource "aws_volume_attachment" "ebs_attach" {
  device_name = "/dev/sdd"
  instance_id = aws_instance.webserver.id
@@ -26,7 +26,7 @@ resource "aws_volume_attachment" "ebs_attach" {
   force_detach = true
  aws_volume_attachment =  aws_volume_attachment.webserver
 } 
-*/
+
 
 resource "aws_eip" "webserver_eip" {
   instance = aws_instance.webserver.id
