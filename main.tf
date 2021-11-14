@@ -19,7 +19,7 @@ resource "aws_ebs_volume" "Ebs-Vol1" {
   }
   
 }
-#attach
+#attach New EBS to instance
 resource "aws_volume_attachment" "ebs_attach" {
  device_name = "/dev/sdd"
  instance_id = aws_instance.webserver.id
