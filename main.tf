@@ -27,7 +27,7 @@ resource "aws_volume_attachment" "ebs_attach" {
   
 } 
 
-#Generate New Elastic Ip
+#Generate New Elastic Ip & Attach to In
 resource "aws_eip" "webserver_eip" {
   instance = aws_instance.webserver.id
   tags = {
