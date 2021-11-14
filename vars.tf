@@ -23,6 +23,6 @@ default = {
 
 variable "aws_volume_attachment" {
   type = string
-  default = 
+  default = aws_volume_attachment.ebs_attach,
   
   }
