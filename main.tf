@@ -37,7 +37,7 @@ resource "aws_eip" "webserver_eip" {
 }
 
 resource "aws_network_interface" "test" {
-  subnet_id       = aws_subnet.public_a.id
+  subnet_id       = aws_subnet.publicid
   private_ips     = ["10.0.0.50"]
 #  security_groups = [aws_security_group.webserver.id]
 
