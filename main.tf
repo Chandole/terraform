@@ -41,7 +41,11 @@ resource "aws_eip" "webserver_eip" {
 resource "aws_iam_user" "shubham" {
 namename = "shubham"  
 }
-
+#IAM 
+resource "aws_iam_group" "developers" {
+  name = "developers"
+  path = "/users/"
+}
 output "private_ip" {
     value = aws_instance.webserver.private_ip  
 }
