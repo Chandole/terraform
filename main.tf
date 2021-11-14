@@ -1,7 +1,7 @@
 provider "aws" {
     region = "us-east-1"
 }
-#Create New Instac
+#Create New Instance
 resource "aws_instance" "webserver" {
     ami = var.ami
     instance_type = var.instance_type
