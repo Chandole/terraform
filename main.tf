@@ -36,7 +36,11 @@ resource "aws_eip" "webserver_eip" {
   
 }
 
-#IAM 
+#IAM User
+
+resource "" "name" {
+  
+}
 
 output "private_ip" {
     value = aws_instance.webserver.private_ip  
