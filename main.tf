@@ -10,7 +10,7 @@ resource "aws_instance" "webserver" {
     
 }
 
-resource "" "ebs_attach" {
+resource "aws_" "ebs_attach" {
  device_name = "/dev/sdd"
  instance_id = aws_instance.webserver.id
  volume_id = aws_instance.webserver.id
