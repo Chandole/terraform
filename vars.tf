@@ -20,9 +20,3 @@ default = {
   Env = "Dev"
 }  
 }
-
-variable "aws_volume_attachment" {
-  type = string
-  default = aws_volume_attachment.ebs_attach
-  
-  }
