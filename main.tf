@@ -41,7 +41,7 @@ resource "aws_eip" "webserver_eip" {
 resource "aws_iam_user" "shubham" {
 namename = "shubham"  
 }
-#IAM 
+#IAM Group Creat
 resource "aws_iam_group" "developers" {
   name = "developers"
   path = "/users/"
