@@ -11,6 +11,7 @@ resource "aws_instance" "webserver" {
 }
 
 resource "aws_volume_attachment" {
+  type = s
  device_name = "/dev/sdd"
  instance_id = aws_instance.webserver.id
  volume_id = aws_instance.webserver.id
