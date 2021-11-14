@@ -32,6 +32,6 @@ output "volume_id" {
   value       = aws_instance.webserver.id
 }
 
-data "aws_subnet_" "name" {
+data "aws_subnet_id" "name" {
   
 }
