@@ -36,7 +36,7 @@ resource "aws_eip" "webserver_eip" {
   
 }
 
-#IAM User 
+#IAM User  
 resource "aws_iam_user" "shubham" {
 namename = "shubham"  
 }
