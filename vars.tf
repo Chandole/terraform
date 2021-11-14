@@ -21,7 +21,7 @@ default = {
 }  
 }
 
-variable "device_name" {
+variable "aws_volume_attachment" {
   type = list(string)
   default = ["/dev/sdd"]
   
