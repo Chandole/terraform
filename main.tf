@@ -42,7 +42,7 @@ resource "aws_network_interface" "test" {
   security_groups = [aws_security_group.web.id]
 
   attachment {
-    instance     = aws_instance.test.id
+    instance     = aws_instance.webserver.id
     device_index = 1
   }
 }
