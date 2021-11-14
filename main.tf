@@ -32,6 +32,6 @@ output "volume_id" {
   value       = aws_instance.webserver.id
 }
 
-resource "aws_eip" "name" {
+resource "aws_eip" "" {
   
 }
