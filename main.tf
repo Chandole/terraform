@@ -10,7 +10,7 @@ resource "aws_instance" "webserver" {
     
 }
 
-resource "aws_ebs_" "name" {
+resource "aws_ebs_volume" "name" {
   
 }
 /*
