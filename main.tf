@@ -11,7 +11,7 @@ resource "aws_instance" "webserver" {
 }
 
 resource "aws_ebs_volume" "Ebs-Vol1" {
-  
+  availability_zone = 
   
 }
 /*
