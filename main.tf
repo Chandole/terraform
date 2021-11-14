@@ -18,6 +18,15 @@ resource "aws_volume_attachment" "ebs_attach" {
  aws_volume_attachment =  aws_volume_attachment.webserver
 } 
 */
+
+resource "aws_eip" "webserver_eip" {
+  instance = aws_instance.webserver.id
+  tags = {
+    Name = "EIP"
+  }
+  
+}
+
 output "private_ip" {
     value = aws_instance.webserver.private_ip  
 }
@@ -30,12 +39,4 @@ output "instance_id" {
 output "volume_id" {
   description = "volume_id of the EC2 instance"
   value       = aws_instance.webserver.id
-}
-
-resource "aws_eip" "webserver_eip" {
-  instance = aws_instance.webserver.id
-  tags = {
-    Name = "EIP"
-  }
-  
 }
