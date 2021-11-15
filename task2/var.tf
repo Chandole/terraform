@@ -1,3 +1,4 @@
 variable "ami" {
-type =   
+type = string
+de  
 }
