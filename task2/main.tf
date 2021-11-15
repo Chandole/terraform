@@ -23,3 +23,7 @@ resource "aws_volume_attachment" "ebs_attach" {
     instance_id = aws_instance.test.id
     volume_id = aws_ebs_volume.Vol-1.id 
 }
+
+resource "" "name" {
+  
+}
