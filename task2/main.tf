@@ -13,7 +13,7 @@ resource "aws_ebs_volume" "Vol-1" {
     availability_zone = var.availability_zone
     size = 10
     tags = {
-      "Name" = ""
+      "Name" = "Ebs-1"
     }
   
 }
