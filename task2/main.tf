@@ -28,7 +28,14 @@ resource "aws_volume_attachment" "ebs_attach" {
 resource "aws_security_group" "SG-test" {
     name = "SG-test"
     vpc_id = aws_vpc.vpc.id
-    ingress =  var.ingress     
+    ingress = [{
+     description = "Allow SG-HTTP"
+      cidr_blocks = [ "0.0.0.0/0" ]
+      from_port = "80"
+      to_port = "80"
+      protocol = "tcp"  
+  
+}]
     egress = var.egress
      tags = {
     Name = "allow_tls"
