@@ -15,7 +15,7 @@ variable "availability_zone" {
 variable "tags" {
 type = map(string)
 default = {
-  Name = "Instance-test"
+  Name = "Test"
   Env = "Dev"
 }  
 }
