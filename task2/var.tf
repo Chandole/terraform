@@ -23,7 +23,7 @@ variable "ingress" {
      description = "Allow SG-HTTP"
       cidr_blocks = [ "0.0.0.0/0" ]
       from_port = "80"
-      to_port = 80
+      to_port = "80"
       protocol = "tcp"  
   
 }
