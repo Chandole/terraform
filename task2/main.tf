@@ -32,7 +32,7 @@ output "vpc_id" {
 /*
 resource "aws_security_group" "SG-test" {
     name = "SG-test"
-    vpc_id = aws_vpc_id.test.id
+    vpc_id = aws_vpc.vpc.id
     
     ingress = [ {
       cidr_blocks = [ "aws_vpc.main.cidr_block.id" ]
