@@ -1,3 +1,3 @@
 variable "ami" {
-ty  
+type =   
 }
