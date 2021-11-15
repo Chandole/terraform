@@ -36,7 +36,7 @@ resource "aws_security_group" "SG-test" {
     
     ingress = [ {
       description = "Allow SG"
-      cidr_blocks = [ "aws_vpc.main.cidr_block.id" ]
+      cidr_blocks = [ "0.0.0.0/0" ]
       from_port = 80
       to_port = 80
       protocol = "tcp"
@@ -45,7 +45,7 @@ resource "aws_security_group" "SG-test" {
     } ]
     
     egress = [ {
-      cidr_blocks = 
+      cidr_blocks = [ "0.0.0.0/0" ]
       description = "value"
       from_port = 0
       ipv6_cidr_blocks = [ "::/0" ]
