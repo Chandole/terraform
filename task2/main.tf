@@ -43,7 +43,7 @@ resource "aws_security_group" "SG-test" {
     } ]
     
     egress = [ {
-      description = "value"
+      description = "OUT-B"
       cidr_blocks = [ "0.0.0.0/0" ]
       from_port = 0
       to_port = 0
