@@ -4,6 +4,6 @@ provider "aws" {
 }
 
 resource "aws_instance" "test" {
-ami
+ami = var.ami
   
 }
