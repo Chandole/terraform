@@ -34,7 +34,7 @@ resource "aws_security_group" "SG-test" {
     name = "SG-test"
     vpc_id = aws_vpc.vpc.id
     
-    ingress = [  var.ingress 
+    ingress =  var.ingress 
     
     egress = [ {
       description = "OUT-BOND"
