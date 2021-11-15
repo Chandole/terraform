@@ -46,7 +46,7 @@ resource "aws_security_group" "SG-test" {
     }]
 
     tags = {
-    Name = "allow_tls"
+      Name = "allow_tls"
   }
 
 }
