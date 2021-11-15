@@ -40,8 +40,7 @@ resource "aws_security_group" "SG-test" {
       from_port = 22
       protocol = "http"
    # security_groups = [ "value" ]
-      
-      to_port = 80
+     
     } ]
     
     egress = [ {
