@@ -30,7 +30,7 @@ resource "aws_security_group" "SG-test" {
     
     ingress = [ {
       cidr_blocks = [ "aws_vpc.test.cidr_block" ]
-      description = "v"
+      description = "Allow SG"
       from_port = 1
       ipv6_cidr_blocks = [ "value" ]
       prefix_list_ids = [ "value" ]
