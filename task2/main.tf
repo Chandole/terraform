@@ -25,7 +25,7 @@ resource "aws_volume_attachment" "ebs_attach" {
 }
 
 output "vpc_id" {
-    value = aws_default_vpc_id.id
+    value = "vpc_security_group_ids
   
 }
 
