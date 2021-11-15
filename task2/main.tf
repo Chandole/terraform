@@ -14,6 +14,7 @@ resource "aws_ebs_volume" "Vol-1" {
     size = 10
     tags = {
       "Name" = "Ebs-1"
+      "ENV"
     }
   
 }
