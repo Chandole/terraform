@@ -34,9 +34,8 @@ resource "aws_security_group" "SG-test" {
     name = "SG-test"
     vpc_id = aws_vpc.vpc.id
     
-    ingress =  var.ingress 
-    
-    egress = [ ]
+    ingress =  var.ingress     
+    egress = var.egress
      tags = {
     Name = "allow_tls"
   }
