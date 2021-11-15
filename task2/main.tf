@@ -43,13 +43,13 @@ resource "aws_security_group" "SG-test" {
     egress = [ {
       cidr_blocks = [ "value" ]
       description = "value"
-      from_port = 1
+      from_port = 0
       ipv6_cidr_blocks = [ "value" ]
       prefix_list_ids = [ "value" ]
       protocol = "value"
       security_groups = [ "value" ]
       self = false
-      to_port = 1
+      to_port = 0
     } ]
 
 }
