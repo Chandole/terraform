@@ -33,9 +33,9 @@ resource "aws_security_group" "SG-test" {
       description = "Allow SG"
       from_port = 22
       ipv6_cidr_blocks = [ "aws_vpc.main.ipv6_cidr_block.id" ]
-      prefix_list_ids = [ "value" ]
+    #  prefix_list_ids = [ "value" ]
       protocol = "value"
-      security_groups = [ "value" ]
+   # security_groups = [ "value" ]
       self = false
       to_port = 80
     } ]
