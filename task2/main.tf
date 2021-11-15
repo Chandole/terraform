@@ -18,3 +18,6 @@ resource "aws_ebs_volume" "Vol-1" {
     }
   
 }
+resource "aws_volume_attachment" "name" {
+  
+}
