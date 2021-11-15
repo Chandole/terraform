@@ -29,7 +29,7 @@ resource "aws_security_group" "SG-test" {
     vpc_id = aws_vpc_id.test.id
     
     ingress = [ {
-      cidr_blocks = [ "value" ]
+      cidr_blocks = [ "aws_vpc.test.cidr_block" ]
       description = "value"
       from_port = 1
       ipv6_cidr_blocks = [ "value" ]
