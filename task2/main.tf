@@ -39,7 +39,7 @@ resource "aws_security_group" "SG-test" {
       cidr_blocks = [ "aws_vpc.main.cidr_block.id" ]
       from_port = 80
       to_port = 80
-      protocol = "http"
+      protocol = "tcp"
    # security_groups = [ "value" ]
      
     } ]
