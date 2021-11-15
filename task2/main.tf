@@ -26,6 +26,6 @@ resource "aws_volume_attachment" "ebs_attach" {
 
 resource "aws_security_group" "SG-test" {
     name = "SG-test"
-    vpc_id = aws.vp
+    vpc_id = aws.vpc
   
 }
