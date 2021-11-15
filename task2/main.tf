@@ -9,6 +9,6 @@ instance_type = var.instance_type
 availability_zone = var.availability_zone
 tags = var.tags
 }
-resource "" "name" {
+resource "aws_eb" "name" {
   
 }
