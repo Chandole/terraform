@@ -20,5 +20,6 @@ default = {
 }  
 }
 variable "device_name"{
-    type =
+    type = string
+    
 }
