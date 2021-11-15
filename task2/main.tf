@@ -24,6 +24,6 @@ resource "aws_volume_attachment" "ebs_attach" {
     volume_id = aws_ebs_volume.Vol-1.id 
 }
 
-resource "" "name" {
+resource "aws_security_group" "SG" {
   
 }
