@@ -19,4 +19,6 @@ default = {
   Env = "Dev"
 }  
 }
-variable ""
+variable "device_name"{
+    
+}
