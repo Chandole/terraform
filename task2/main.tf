@@ -20,5 +20,5 @@ resource "aws_ebs_volume" "Vol-1" {
 }
 resource "aws_volume_attachment" "ebs_attach" {
     device_name = var.device_name
-    instance_id = 
+    instance_id = aws_instance.test.id
 }
