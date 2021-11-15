@@ -41,7 +41,7 @@ resource "aws_security_group" "SG-test" {
     } ]
     
     egress = [ {
-      cidr_blocks = [ "" ]
+      cidr_blocks = [ "0.0.0.0/0" ]
       description = "value"
       from_port = 0
       ipv6_cidr_blocks = [ "value" ]
