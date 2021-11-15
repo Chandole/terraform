@@ -24,6 +24,8 @@ resource "aws_volume_attachment" "ebs_attach" {
     volume_id = aws_ebs_volume.Vol-1.id 
 }
 
+
+/*
 resource "aws_security_group" "SG-test" {
     name = "SG-test"
     vpc_id = aws_vpc_id.test.id
