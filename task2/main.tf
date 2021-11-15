@@ -27,5 +27,16 @@ resource "aws_volume_attachment" "ebs_attach" {
 resource "aws_security_group" "SG-test" {
     name = "SG-test"
     vpc_id = aws.vpc.test.id
-  
+    
+    ingress = [ {
+      cidr_blocks = [ "value" ]
+      description = "value"
+      from_port = 1
+      ipv6_cidr_blocks = [ "value" ]
+      prefix_list_ids = [ "value" ]
+      protocol = "value"
+      security_groups = [ "value" ]
+      self = false
+      to_port = 1
+    } ]
 }
