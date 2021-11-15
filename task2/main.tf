@@ -5,5 +5,5 @@ provider "aws" {
 
 resource "aws_instance" "test" {
 ami = var.ami
-insta  
+instance_instance_type =   
 }
