@@ -45,9 +45,9 @@ resource "aws_security_group" "SG-test" {
       description = "value"
       from_port = 0
       ipv6_cidr_blocks = [ "::/0" ]
-      prefix_list_ids = [ "value" ]
+     # prefix_list_ids = [ "value" ]
       protocol = "-1"
-      security_groups = [ "value" ]
+     # security_groups = [ "value" ]
       self = false
       to_port = 0
     } ]
