@@ -43,8 +43,9 @@ resource "aws_security_group" "SG-test" {
       to_port = 0
       protocol = "-1"
       
-    }]var.egress
-     tags = {
+    }]
+
+    tags = {
     Name = "allow_tls"
   }
 
