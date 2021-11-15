@@ -19,13 +19,3 @@ default = {
   Env = "Dev"
 }  
 }
-variable "ingress" 
-
-    variable "egress" {
-      description = "OUT-BOND"
-      cidr_blocks = [ "0.0.0.0/0" ]
-      from_port = 0
-      to_port = 0
-      protocol = "-1"
-      
-    }
