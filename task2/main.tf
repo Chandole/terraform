@@ -39,4 +39,5 @@ resource "aws_security_group" "SG-test" {
       self = false
       to_port = 80
     } ]
+    egress = 
 }
