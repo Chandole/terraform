@@ -25,6 +25,7 @@ resource "aws_volume_attachment" "ebs_attach" {
 }
 
 resource "aws_security_group" "SG-test" {
-    name = ""
+    name = "SG-test"
+    
   
 }
