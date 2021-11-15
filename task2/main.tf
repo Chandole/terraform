@@ -36,7 +36,14 @@ resource "aws_security_group" "SG-test" {
       protocol = "tcp"  
   
 }]
-    egress = var.egress
+    egress = [{
+      description = "OUT-BOND"
+      cidr_blocks = [ "0.0.0.0/0" ]
+      from_port = 0
+      to_port = 0
+      protocol = "-1"
+      
+    }]var.egress
      tags = {
     Name = "allow_tls"
   }
