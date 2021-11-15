@@ -18,6 +18,7 @@ resource "aws_ebs_volume" "Vol-1" {
     }
   
 }
-resource "aws_volume_attachment" "ebs_" {
+resource "aws_volume_attachment" "ebs_attach" {
+    device_name = 
   
 }
