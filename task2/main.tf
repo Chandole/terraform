@@ -25,7 +25,7 @@ resource "aws_volume_attachment" "ebs_attach" {
 }
 
 output "vpc_id" {
-    value = 
+    value = aws_instance.test,vp
   
 }
 
