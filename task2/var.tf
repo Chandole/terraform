@@ -19,7 +19,8 @@ default = {
   Env = "Dev"
 }  
 }
+
 variable "device_name"{
     type = string
-    defult =""
+    defult ="/dev/sdd"
 }
