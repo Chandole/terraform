@@ -1,4 +1,4 @@
 variable "ami" {
 type = string
-de  
+ddefault = "value"  
 }
