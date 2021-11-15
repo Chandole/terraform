@@ -49,9 +49,6 @@ resource "aws_security_group" "SG-test" {
       ipv6_cidr_blocks = [ "::/0" ]
      # prefix_list_ids = [ "value" ]
       protocol = "-1"
-    
-      self = false
-      to_port = 0
     } ]
      tags = {
     Name = "allow_tls"
