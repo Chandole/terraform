@@ -3,12 +3,15 @@ provider "aws" {
 
 }
 
+#instance launch
 resource "aws_instance" "test" {
 ami = var.ami
 instance_type = var.instance_type
 availability_zone = var.availability_zone
 tags = var.tags
 }
+
+#EBS creation
 resource "aws_ebs_volume" "Vol-1" {
     availability_zone = var.availability_zone
     size = 10
@@ -18,13 +21,14 @@ resource "aws_ebs_volume" "Vol-1" {
     }
   
 }
+#EBS attach
 resource "aws_volume_attachment" "ebs_attach" {
     device_name = "/dev/sdd"
     instance_id = aws_instance.test.id
     volume_id = aws_ebs_volume.Vol-1.id 
 }
 
-
+#Security Group Creation
 resource "aws_security_group" "SG-test" {
     name = "SG-test"
     vpc_id = aws_vpc.vpc.id
