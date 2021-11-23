@@ -46,8 +46,7 @@ resource "aws_iam_group" "developers" {
 }
 #Iam User added in group
 resource "aws_iam_group_membership" "team" {
-  name =  var.aws_iam_group.name
-
+  name =  var.aws_iam_group_
   users = var.aws_iam_user.shubham.shubham
   group = aws_iam_group.developers.name
 }
