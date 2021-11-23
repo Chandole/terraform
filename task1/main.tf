@@ -46,6 +46,7 @@ resource "aws_iam_group" "developers" {
  
 }
 
+
 output "private_ip" {
     value = aws_instance.webserver.private_ip  
 }
