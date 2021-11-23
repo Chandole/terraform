@@ -1,5 +1,5 @@
-variable "aws" {
-  
+variable "aws_iam_group" {
+  type =
 }
 
 variable "ami" {
