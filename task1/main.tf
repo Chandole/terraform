@@ -42,8 +42,7 @@ name = "shubham"
 }
 #IAM Group Creat
 resource "aws_iam_group" "developers" {
-  name = "developers"
- 
+  name = "developers" 
 }
 
 
