@@ -1,0 +1,16 @@
+-------------------- Auto-Git Log --------------------
+		Tue Nov 23 2021 14:25:51 GMT+0530 (India Standard Time)
+------------------------------------------------------
+
+Modified files:
+* task1/main.tf
+
+
+Created files:
+* .autogit/logs/log-23-10-2021-14-25-41.txt
+
+
+Deleted files:
+
+
+Renamed files:
