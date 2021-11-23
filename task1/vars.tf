@@ -5,7 +5,7 @@ variable "aws_iam_group" {
 
 variable "aws_iam_group_membership" {
   type = string
-  name = 
+  name = "team-dev"
 }
 variable "ami" {
 type =  string
