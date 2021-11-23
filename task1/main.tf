@@ -42,7 +42,7 @@ name = "shubham"
 }
 #IAM Group Creat
 resource "aws_iam_group" "developers" {
-  name = "developers" 
+  name = var.aws_iam_group
 }
 #Iam User added in group
 resource "aws_iam_group_membership" "team" {
