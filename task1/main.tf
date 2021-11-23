@@ -48,7 +48,7 @@ resource "aws_iam_group" "developers" {
 resource "aws_iam_group_membership" "team" {
   name =  var.aws_iam_group.name
 
-  users = var.aws_iam_user [
+  users = var.aws_iam_user.shubham.shubham [
     aws_iam_user.user_one.name,
     aws_iam_user.user_two.name,
   ]
