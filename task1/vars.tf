@@ -1,4 +1,6 @@
-
+variable "aws" {
+  
+}
 
 variable "ami" {
 type =  string
