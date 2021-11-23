@@ -4,7 +4,7 @@ variable "aws_iam_group" {
 }
 
 variable "aws_iam_group_membership" {
-  
+  type =
 }
 variable "ami" {
 type =  string
