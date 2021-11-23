@@ -1,8 +1,11 @@
 variable "aws_iam_group" {
   type = string
-  name = "Deve"
+  name = "Developer"
 }
 
+variable "aws_iam_group_membership" {
+  
+}
 variable "ami" {
 type =  string
 default = "ami-0b0af3577fe5e3532"
