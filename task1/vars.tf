@@ -1,5 +1,6 @@
 variable "aws_iam_group" {
-  type =
+  type = string
+  name =""
 }
 
 variable "ami" {
